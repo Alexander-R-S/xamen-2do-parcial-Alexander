@@ -3,8 +3,8 @@ const mongoose = require('mongoose');
 const RefrescosSchema = new mongoose.Schema({
     codigo:{
         type:Number,
-        require:true,
-        unique
+        unique:true, 
+        require:true
     },
     nombre:{
         type:String,
